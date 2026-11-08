@@ -1,0 +1,17 @@
+app:
+  name: 食链通 FoodLink
+  version: 1.0.0
+
+limits:
+  max_file_size_mb: 50
+  page_size: 20
+
+storage:
+  upload_cleanup_hours: 24
+
+logging:
+  level: INFO
+
+testing:
+  database: foodlink_test
+
